@@ -1,7 +1,7 @@
 # FileTemplate
 文件模板
 
-# Webstorm
+## Webstorm file config
 ```
 /*
 *
