@@ -32,7 +32,7 @@ export default {
     name: '${NAME}',
     created() {
         __this = this;
-        console.log(`${NAME}.vue is created: ${__this}`)
+        console.log('${NAME}.vue is created: ' + __this)
     }
 }
 </script>
