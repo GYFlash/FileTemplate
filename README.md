@@ -2,6 +2,7 @@
 文件模板
 
 ## Webstorm file config
+### javascript/typescript
 ```
 
 // 
@@ -19,4 +20,24 @@
 
 
 ```
+### vue
+```
+<template>
+    <div class="${NAME}">${NAME}</div>
+</template>
+<script>
+// ${NAME}
+let __this;
+export default {
+    name: '${NAME}',
+    created() {
+        __this = this;
+    }
+}
+</script>
+<style scoped lang="less">
+.${NAME} {}
+</style>
+```
+
 
